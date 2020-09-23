@@ -257,7 +257,7 @@ a:focus {
     margin: 0 20px 0 0;
     height: 80px;
     width: 80px;
-    background-image: url(img/logo-dark.png);
+    background-image: url("https://i.ibb.co/C2p8czT/logo-dark.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -266,7 +266,7 @@ a:focus {
     margin: 0 20px 0 0;
     height: 80px;
     width: 80px;
-    background-image: url(img/logo-white.png);
+    background-image: url("https://i.ibb.co/hFXQYQX/logo-white.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -315,7 +315,7 @@ a:focus {
 }
 
 .darkmode__toggle__active{
-    background-image: url(img/stormtrooper.png);
+    background-image: url("https://i.ibb.co/hd9SJ4V/stormtrooper.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 35px;
