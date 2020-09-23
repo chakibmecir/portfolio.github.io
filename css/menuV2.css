@@ -257,7 +257,7 @@ a:focus {
     margin: 0 20px 0 0;
     height: 80px;
     width: 80px;
-    background-image: url(./img/logo-dark.png);
+    background-image: url(img/logo-dark.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -266,7 +266,7 @@ a:focus {
     margin: 0 20px 0 0;
     height: 80px;
     width: 80px;
-    background-image: url(./img/logo-white.png);
+    background-image: url(img/logo-white.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -306,7 +306,7 @@ a:focus {
 }
 
 .darkmode__toggle{
-    background-image: url(./img/darth.png);
+    background-image: url(img/darth.png);
     background-size: contain;
     background-repeat: no-repeat;
     height: 35px;
@@ -315,7 +315,7 @@ a:focus {
 }
 
 .darkmode__toggle__active{
-    background-image: url(./img/stormtrooper.png);
+    background-image: url(img/stormtrooper.png);
     background-size: contain;
     background-repeat: no-repeat;
     height: 35px;
@@ -334,7 +334,7 @@ a:focus {
         margin: 0 20px 0 0;
         height: 60px;
         width: 60px;
-        background-image: url(./img/logo-dark.png);
+        background-image: url(img/logo-dark.png);
         background-size: contain;
         background-repeat: no-repeat;
     }
