@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "kionaregular";
+  src: url("../fonts/kiona-regular-webfont.woff") format("woff2"),
+    url("../fonts/kiona-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "kionaregular";
+}
+
+/* dark mode*/
+.body-white {
+  background-color: white;
+}
+
+.span-white {
+  background: #fff !important;
+}
+
+.icons-white {
+  color: #fff !important;
+}
+
+.text-dark {
+  color: #121211 !important;
+}
+
+.navbar-dark {
+  background: #121211 !important;
+}
+
+.particle-inverted {
+  filter: invert(180);
+}
+
+#particles-js {
+  height: 100vh;
+  width: 100vw;
+  background: #121211;
+  z-index: 1800;
+}
+
+.particles-js-canvas-el {
+  z-index: 1800;
+  position: relative;
+}
+
+.skills-container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+.progress-bars {
+  height: 80vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+.skills-contain {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: absolute;
+  justify-content: space-around;
+  align-items: center;
+  top: 0vh;
+  left: 7vw;
+  z-index: 1;
+}
+
+.progress {
+  height: 3vh;
+  width: 35vw;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  z-index: 4;
+}
+
+.inner-progress {
+  height: 3vh;
+  width: 0vw;
+  background-color: #ef2121;
+  box-shadow: 0 0 10px #ef2121, 0 0 20px #ef2121, 0 0 20px #ef2121;
+  border-radius: 8px;
+  color: #fff;
+  z-index: 4;
+}
+.inner-progress-1 {
+  height: 3vh;
+  width: 0vw;
+  background-color: #ef2121;
+  box-shadow: 0 0 10px #ef2121, 0 0 20px #ef2121, 0 0 20px #ef2121;
+  border-radius: 8px;
+  color: #fff;
+  z-index: 4;
+}
+.inner-progress-2 {
+  height: 3vh;
+  width: 0vw;
+  background-color: #ef2121;
+  box-shadow: 0 0 10px #ef2121, 0 0 20px #ef2121, 0 0 20px #ef2121;
+  border-radius: 8px;
+  color: #fff;
+  z-index: 4;
+}
+.inner-progress-3 {
+  height: 3vh;
+  width: 0vw;
+  background-color: #ef2121;
+  box-shadow: 0 0 10px #ef2121, 0 0 20px #ef2121, 0 0 20px #ef2121;
+  border-radius: 8px;
+  color: #fff;
+  z-index: 4;
+}
+.inner-progress-4 {
+  height: 3vh;
+  width: 0vw;
+  background-color: #ef2121;
+  box-shadow: 0 0 10px #ef2121, 0 0 20px #ef2121, 0 0 20px #ef2121;
+  border-radius: 8px;
+  color: #fff;
+  z-index: 4;
+}
+
+@media only screen and (max-width: 500px) {
+  .skills-contain {
+    display: flex;
+    flex-direction: column;
+  }
+}

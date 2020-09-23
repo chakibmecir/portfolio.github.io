@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "kionaregular";
+  src: url("../fonts/kiona-regular-webfont.woff") format("woff2"),
+    url("../fonts/kiona-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "kionaregular";
+}
+
+/* dark mode*/
+.body-white {
+  background-color: white;
+}
+
+.span-white {
+  background: #fff !important;
+}
+
+.icons-white {
+  color: #fff !important;
+}
+
+.text-dark {
+  color: #121211 !important;
+}
+
+.navbar-dark {
+  background: #121211 !important;
+}
+
+.contact-dark {
+  background-color: #fff !important;
+}
+
+.contact-p-dark {
+  color: #121211 !important;
+}
+
+.contact-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #121211;
+}
+
+.contact-container > p {
+  color: #fff;
+  font-size: 4rem;
+  margin-bottom: 30px;
+}

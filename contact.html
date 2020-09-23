@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Chakib Mecir" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>Contact</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/menuV2.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+  </head>
+  <body>
+    <div class="red__overlay"></div>
+    <div class="black__overlay">
+      <nav class="menu menu--mohe">
+        <a class="menu__item" href="index.html">
+          <span class="menu__item-name line-skewed">Home</span>
+          <span class="menu__item-label line-skewed">Going back home</span>
+        </a>
+        <a class="menu__item" href="skills.html">
+          <span class="menu__item-name line-skewed">Skills</span>
+          <span class="menu__item-label line-skewed"
+            >Learn More About My Skills</span
+          >
+        </a>
+        <a class="menu__item" href="work.html">
+          <span class="menu__item-name line-skewed">Work</span>
+          <span class="menu__item-label line-skewed">View My Portfolio</span>
+        </a>
+        <a class="menu__item" href="#">
+          <span class="menu__item-name line-skewed">Contact</span>
+          <span class="menu__item-label line-skewed">Stay Here</span>
+        </a>
+      </nav>
+    </div>
+    <div class="menuV2__container">
+      <div class="logo__icons">
+        <a href="index.html"><div class="logo__contain"></div></a>
+
+        <div class="icons__contain">
+          <a target="__blank" href="https://www.facebook.com/mecsokun/"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a target="__blank" href="https://www.behance.net/chakibmecir-dio"
+            ><i class="fab fa-behance-square"></i
+          ></a>
+          <a target="__blank" href="https://github.com/chakibmecir"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            target="__blank"
+            href="https://www.linkedin.com/in/chakib-mecir-53446b1a9/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="toggle__icons">
+        <div class="menu__toggle">
+          <div id="nav-icon4">
+            <span class="dark-span"></span>
+            <span class="dark-span"></span>
+            <span class="dark-span"></span>
+          </div>
+        </div>
+        <div id="bg__toggle" class="darkmode__toggle"></div>
+      </div>
+    </div>
+
+    <div class="contact-container">
+      <p>EMAIL: mecirchakib@gmail.com</p>
+      <p>PHONE: +213 799 85 45 45</p>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/228006f19a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
+    <script src="js/charming.min.js"></script>
+    <script src="js/anime.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#bg__toggle").click(function () {
+          $(".darkmode__toggle").toggleClass("darkmode__toggle__active");
+          $(".logo__contain").toggleClass("logo__contain__inverted");
+        });
+      });
+
+      $(document).ready(function () {
+        $("#bg__toggle").click(function () {
+          $("body").toggleClass("body-white");
+          $(".dark-span").toggleClass("span-white");
+          $("i").toggleClass("icons-white");
+          $(".menuV2__container").toggleClass("navbar-dark");
+          $(".contact-container").toggleClass("contact-dark");
+          $("p").toggleClass("contact-p-dark");
+        });
+      });
+    </script>
+  </body>
+</html>
